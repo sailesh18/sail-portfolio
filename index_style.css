@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px  ;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px  ;
+    }
+  }
+.sec{
+    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; */
+    color: white;
+    
+    font-family: 'Kumar One', cursive;
+    text-align: center;
+    width: 98.7svw;
+    height: 100svh;
+    
+    background-image: url('Y.gif');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+#glass img{
+  
+  
+  transition: transform .2s; /* Animation */
+  /* width: 200px;
+  height: 200px; */
+  margin: 0 auto;
+}
+
+#glass img:hover {
+  cursor: pointer;
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#cap{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6) ;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec1{
+  color: white;
+   
+    font-family: 'Kumar One', cursive;
+    text-align: center;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+    width: 98.7svw;
+    height: 100svh;
+    background-image: url('h.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#glass{
+  
+  position: relative;
+  
+
+  width: 93%;
+  height: 90%;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 10px );
+border-radius: 10px;
+}
+.sec3{
+  color: white;
+   
+    font-family: 'Kumar One', cursive;
+    text-align: center;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+    width: 98.7svw;
+    height: 100svh;
+    background-image: url('aa.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.move{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 90%;
+  height: 90%;
+}
+/* #img1{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+#img2{
+  position: absolute;
+  top: 100px;
+  left:360px;
+}
+#img3{
+  position: absolute;
+  top: 20px;
+  left:700px;
+}
+#img4{
+  position: absolute;
+  top: 100px;
+  left:1050px;
+}
+#img5{
+  position: absolute;
+  top: 20px;
+  left:1395px;
+}
+#img6{
+  position: absolute;
+  top: 350px;
+  left:130px;
+}
+#img7{
+  position: absolute;
+  top: 350px;
+  left: 730px;
+}
+#img8{
+  position: absolute;
+  top: 350px;
+  left: 1400px;
+}
+#img9{
+  position: absolute;
+  top: 530px;
+  left: 450px;
+}
+#img10{
+  position: absolute;
+  top: 510px;
+  left: 1050px;
+} */
