@@ -70,9 +70,10 @@
 }
 #glass{
   
-  position: relative;
-  
-
+ display:inline-grid;
+grid-template-columns:auto auto auto auto;
+  flex-wrap:wrap;
+  justify-content:space-around;
   width: 93%;
   height: 90%;
   background: rgba( 255, 255, 255, 0.25 );
